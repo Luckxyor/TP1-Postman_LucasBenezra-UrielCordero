@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "bfc376c3-dd6e-4a30-b3f8-af38de03e0fa",
+		"name": "TP 1 - Postman Parte 1 - Lucas Benezra y Uriel Cordero",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ej 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=651c5d5f&s=Cars",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "651c5d5f"
+						},
+						{
+							"key": "s",
+							"value": "Cars"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ej 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=651c5d5f&s=Hunger",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "651c5d5f"
+						},
+						{
+							"key": "s",
+							"value": "Hunger"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ej 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=651c5d5f&t=Monsters, Inc.",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "651c5d5f"
+						},
+						{
+							"key": "t",
+							"value": "Monsters, Inc."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ej 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=651c5d5f&t=Rocky IV",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "651c5d5f"
+						},
+						{
+							"key": "t",
+							"value": "Rocky IV"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ej 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=651c5d5f&i=tt0067992",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "651c5d5f"
+						},
+						{
+							"key": "i",
+							"value": "tt0067992"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
